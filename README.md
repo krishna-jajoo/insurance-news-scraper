@@ -17,7 +17,7 @@ A Python-based tool that scrapes **insurance and reinsurance news**, processes t
 ## Clone the Repository:
 
 ```env
-git clone https://github.com/yourusername/insurance-news-scraper.git  
+git clone https://github.com/krishna-jajoo/insurance-news-scraper.git  
 cd insurance-news-scraper
 ```
 
