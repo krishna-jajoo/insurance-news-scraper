@@ -6,11 +6,13 @@ A Python-based tool that scrapes **insurance and reinsurance news**, processes t
 
 ## Features
 
+```markdown
 ✅ Fetches real-time news from **Tavily API**
 ✅ Summarizes & categorizes using **GPT-4o**
 ✅ Validates credibility with **research papers**
 ✅ Generates structured reports (JSON)
 ✅ Interactive dashboard with **Streamlit**
+```
 
 # Installation Guide
 
@@ -101,7 +103,7 @@ This section outlines the processing pipeline for insurance-related news article
 
 #### **How It Works**
 
-```md
+```markdown
  Uses **Tavily API** to fetch the latest insurance-related news.  
  Saves unstructured data as **raw JSON** for processing.  
  AI models categorize and summarize news into structured formats.  
@@ -137,7 +139,7 @@ This section describes the transformation of raw news data into a structured for
 
 #### **How It Works**
 
-```md
+```markdown
  Uses **Gen-AI** to analyze and extract structured insights.
  Summarizes news content and assigns an  **insurance category** .
  Identifies  **risk factors, economic impact, and sentiment** .
@@ -180,7 +182,7 @@ This section describes the final stage in the **AI-ML Ideathon** workflow, where
 
 #### **How It Works**
 
-```md
+```markdown
  Extracts **research papers dynamically** from the raw JSON dataset.
  Cross-checks **news articles with research papers** based on keyword matching.
  Assigns a `validated` status (`True` or `False`) depending on whether keywords from the news article are found in a research paper.
@@ -222,7 +224,7 @@ A **Streamlit-based dashboard** to **explore** validated news articles on climat
 
 #### **📌 Features**
 
-```md
+```markdown
 ✅ **Filter by Category** – Browse news by categories like **Financial Impact, Climate Policy, etc.**
 
 ✅ **Filter by Tag** – Find articles with specific **tags** such as `Climate Change, Insurance, Premiums, Natural Disasters`.
@@ -260,7 +262,7 @@ A **Streamlit-based dashboard** to **explore** validated news articles on climat
 
 # 👨‍💻About Me
 
-```md
+```markdown
 Hi, I'm Krishna Jajoo, a Data Scientist passionate about **AI-driven information extraction** and **knowledge automation**.  
 My expertise includes **Gen-AI, NLP, and knowledge graphs**, enabling me to build intelligent systems.  
 
