@@ -1,6 +1,11 @@
 import json
 
 
+def load_config(config_path="config/config.json"):
+    with open(config_path, "r") as file:
+        return json.load(file)
+
+
 def extract_research_papers(raw_json):
     """Extracts research papers dynamically from raw JSON data."""
     research_papers = []
@@ -46,14 +51,29 @@ def validate_news_with_research(news_data, raw_json):
     return validated_news
 
 
-if __name__ == "__main__":
-    with open("outputs/structured_news.json", "r", encoding="utf-8") as f:
+def init():
+    config = load_config()
+    validated_news_path = config.get(
+        "validated_news_path", "outputs/validated_news.json"
+    )
+    raw_news_path = config.get("raw_news_path", "outputs/raw_news.json")
+    structured_news_path = config.get(
+        "structured_news_path", "outputs/structured_news.json"
+    )
+    with open(structured_news_path, "r", encoding="utf-8") as f:
         news_data = json.load(f)
 
-    with open("outputs/raw_news.json", "r", encoding="utf-8") as f:
+    with open(raw_news_path, "r", encoding="utf-8") as f:
         raw_json = json.load(f)
     validated_news = validate_news_with_research(news_data, raw_json)
-    with open("outputs/validated_news.json", "w", encoding="utf-8") as f:
+    with open(validated_news_path, "w", encoding="utf-8") as f:
         json.dump(validated_news, f, indent=4)
 
     print("News validated and saved!")
+    print(
+        "✅ News processing complete! Run 'streamlit run ui/dashboard.py' to view results."
+    )
+
+
+if __name__ == "__main__":
+    init()

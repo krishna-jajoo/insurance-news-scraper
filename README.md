@@ -58,7 +58,7 @@ TAVILY_API_KEY="your_tavily_key"
 ## Run news processing:
 
 ```md
-python main.py 
+scripts\result.bat
 ```
 
 ## Launch the dashboard:

@@ -1,0 +1,6 @@
+{
+    "input_query": "Climate risk insurance impact",
+    "validated_news_path": "outputs/validated_news.json",
+    "structured_news_path": "outputs/structured_news.json",
+    "raw_news_path": "outputs/raw_news.json"
+}
