@@ -43,7 +43,10 @@ pip install -r requirements.txt
 
 ## API Keys
 
-### 1. Get API Keys:
+### 1. Get API Keys
+
+- **Tavily API Key:** Sign up at [Tavily](https://tavily.com)
+- **OpenAI API Key:** Get your API key from [OpenAI](https://platform.openai.com/)
 
 ### 2. Set API Keys
 
@@ -79,11 +82,13 @@ streamlit run ui/dashboard.py
 
 ## Performance Metrics:
 
+To evaluate the effectiveness of our pipeline, compute accuracy based on model predictions versus ground truth data.
+
 ```python
 python -m src.accuracy.performance_metrics
 ```
 
-# Example With Detailed Explantation:
+# Example With Detailed Explanation:
 
 ### Raw Json:
 
@@ -96,11 +101,11 @@ This section outlines the processing pipeline for insurance-related news article
 
 #### **How It Works**
 
- Fetches **latest insurance-related news** using Tavily search
-
-* Fetches **latest insurance-related news** using Tavily search.
-* Saves **unstructured data** in JSON format.
-* Used as the **input** for further processing.
+```md
+ Uses **Tavily API** to fetch the latest insurance-related news.  
+ Saves unstructured data as **raw JSON** for processing.  
+ AI models categorize and summarize news into structured formats.  
+```
 
 #### 📂 **[Sample Raw News JSON](example\raw_news.json)**
 
@@ -132,12 +137,14 @@ This section describes the transformation of raw news data into a structured for
 
 #### **How It Works**
 
-* Uses **Gen-AI** to analyze and extract structured insights.
-* Summarizes news content and assigns an  **insurance category** .
-* Identifies  **risk factors, economic impact, and sentiment** .
-* Saves **structured data** in JSON format.
+```md
+ Uses **Gen-AI** to analyze and extract structured insights.
+ Summarizes news content and assigns an  **insurance category** .
+ Identifies  **risk factors, economic impact, and sentiment** .
+ Saves **structured data** in JSON format.
+```
 
-#### [📂 ](example\raw_news.json)**[SAMPLE STRUCTURED NEWS JSON](example\structured_news.json)**
+#### [📂 ](example\raw_news.json)**[SAMPLE STRUCTURED NEWS JSON](example/structured_news.json)**
 
 ```json
 {
@@ -164,7 +171,7 @@ This section describes the transformation of raw news data into a structured for
 
 ### Validated Json:
 
-📌 **Cross-verified and validated news articles** backed by research papers.
+📌 **Cross-verified and validated news articles validated against research papers**
 
 This section describes the final stage in the **AI-ML Ideathon** workflow, where structured news articles are validated against research papers. This ensures that the extracted climate risk insights are backed by credible sources.
 
@@ -173,13 +180,15 @@ This section describes the final stage in the **AI-ML Ideathon** workflow, where
 
 #### **How It Works**
 
-* Extracts **research papers dynamically** from the raw JSON dataset.
-* Cross-checks **news articles with research papers** based on keyword matching.
-* Assigns a `validated` status (`True` or `False`) depending on whether keywords from the news article are found in a research paper.
-* If a match is found, the article is linked to the  **most relevant research paper** .
-* Saves **validated data** in JSON format.
+```md
+ Extracts **research papers dynamically** from the raw JSON dataset.
+ Cross-checks **news articles with research papers** based on keyword matching.
+ Assigns a `validated` status (`True` or `False`) depending on whether keywords from the news article are found in a research paper.
+ If a match is found, the article is linked to the  **most relevant research paper** .
+ Saves **validated data** in JSON format.
+```
 
-#### [📂 ](example\raw_news.json)**[SAMPLE VAIDATED NEWS JSON](example\validated_news.json)**
+#### [📂 ](example\raw_news.json)**[SAMPLE VALIDATED NEWS JSON](example\validated_news.json)**
 
 ```json
 {
@@ -213,6 +222,7 @@ A **Streamlit-based dashboard** to **explore** validated news articles on climat
 
 #### **📌 Features**
 
+```md
 ✅ **Filter by Category** – Browse news by categories like **Financial Impact, Climate Policy, etc.**
 
 ✅ **Filter by Tag** – Find articles with specific **tags** such as `Climate Change, Insurance, Premiums, Natural Disasters`.
@@ -226,6 +236,7 @@ A **Streamlit-based dashboard** to **explore** validated news articles on climat
 ✅ **Search by Keywords** – Instantly find articles based on  **title or summary text** .
 
 ✅ **Sentiment Distribution Chart** – Visualize the **sentiment breakdown** of news articles.
+```
 
 #### Dashboard View:
 
@@ -249,14 +260,17 @@ A **Streamlit-based dashboard** to **explore** validated news articles on climat
 
 # 👨‍💻About Me
 
-Hi, I'm  **Krishna Jajoo** , a Data Scientist passionate about **AI-driven information extraction** and  **knowledge automation** . My expertise lies in  **Gen-AI, NLP, and knowledge graphs** , enabling me to build intelligent systems.
+```md
+## 👨‍💻 About Me  
+Hi, I'm Krishna Jajoo, a Data Scientist passionate about **AI-driven information extraction** and **knowledge automation**.  
+My expertise includes **Gen-AI, NLP, and knowledge graphs**, enabling me to build intelligent systems.  
 
-🔹 **Experience:** Data Scientist at Drishya AI Labs
-🔹 **Skills:** Python, Prompt Engineering, Neo4j, LangChain, OCR
-🔹 **Interest Areas:** AI/ML, NLP, Generative AI
+- **💼 Experience:** Data Scientist at Drishya AI Labs  
+- **🛠 Skills:** Python, Prompt Engineering, Neo4j, LangChain, OCR  
+- **🚀 Interests:** AI/ML, NLP, Generative AI  
 
-📫 **Let's connect:**
-
-- [LinkedIn](www.linkedin.com/in/krishna-jajoo-59a4951b4)
-- [GitHub](https://github.com/krishna-jajoo)
-- [Email](krishnajajoo09@gmail.com)
+📫 **Let's connect:**  
+- [LinkedIn](https://www.linkedin.com/in/krishna-jajoo-59a4951b4)  
+- [GitHub](https://github.com/krishna-jajoo)  
+- 📧 Email: krishnajajoo09@gmail.com  
+```
