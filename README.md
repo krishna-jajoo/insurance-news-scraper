@@ -1,17 +1,16 @@
-# Project Overview
+# Insurance News Scraper 🚀
 
-## Insurance News Scraper 🚀
+A **Gen-AI-powered** tool that extracts, analyzes, and validates **climate risk insights** from real-world  **insurance and reinsurance news** . Designed for  **AI-driven decision-making** , this project showcases advanced **NLP, AI-ML, and knowledge automation** capabilities.
 
-A Python-based tool that scrapes **insurance and reinsurance news**, processes them using **GPT-4o**, validates insights with research papers, and presents findings in an **interactive dashboard**.
-
-## Features
+# 🌟**Project Highlights**
 
 ```markdown
-✅ Fetches real-time news from **Tavily API**
+✅ Fetches real-time insurance news from **Tavily API**
 ✅ Summarizes & categorizes using **GPT-4o**
 ✅ Validates credibility with **research papers**
 ✅ Generates structured reports (JSON)
-✅ Interactive dashboard with **Streamlit**
+✅ Interactive dashboard powered by **Streamlit**
+✅ AI-powered climate risk analysis & sentiment detection
 ```
 
 # Installation Guide
@@ -57,7 +56,7 @@ Create a `.env` file inside the directory and add your API keys.
 1) TAVILY_API_KEY
 2) OPENAI_API_KEY
 
-```env
+```bash
 OPENAI_API_KEY="your_openai_key"  
 TAVILY_API_KEY="your_tavily_key"
 ```
