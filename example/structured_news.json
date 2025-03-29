@@ -1,0 +1,219 @@
+[
+    {
+        "title": "Climate change and P&C insurance: The threat and opportunity",
+        "summary": "The article discusses the impact of climate change on property and casualty (P&C) insurance. While insurers have a better grasp of climate risk compared to other sectors, they still underestimate secondary perils. The industry faces pressure from investors, regulators, and society to address climate risks as some premium and profit pools become vulnerable. A lack of response could harm the industry's reputation, with climate risk potentially causing market failures. Increased catastrophic events and regulatory demands pose threats to business models, affecting insurability and affordability of risks.",
+        "category": "Climate Risk",
+        "source": "https://www.mckinsey.com/industries/financial-services/our-insights/climate-change-and-p-and-c-insurance-the-threat-and-opportunity",
+        "date": "Unknown",
+        "tags": [
+            "Climate Change",
+            "P&C Insurance",
+            "Climate Risk",
+            "Secondary Perils",
+            "Regulatory Pressure"
+        ],
+        "risk_factors": [
+            "Climate Risk",
+            "Secondary Perils",
+            "Regulatory Pressure",
+            "Market Failures"
+        ],
+        "economic_impact": "The article highlights potential shrinkage in premium and profit pools and the difficulty in insuring certain assets due to climate risks impacting financial resilience.",
+        "geographical_region": "Global",
+        "sentiment": "Negative"
+    },
+    {
+        "title": "Escalating Climate Events Are Reshaping the Insurance Market",
+        "summary": "In 2024, climate-related disasters caused global insured losses of $140 billion, marking it as one of the most costly years on record. The increasing frequency and severity of these events are significantly impacting the insurance industry, which is adjusting by increasing premiums to reflect heightened risks. Significant regulatory responses include the introduction of anti-greenwashing measures by the UK's Financial Conduct Authority and the continued operations of the U.S. National Flood Insurance Program.",
+        "category": "Financial Impact of Climate Change",
+        "source": "https://earth.org/financial-storm-how-escalating-climate-events-are-reshaping-the-insurance-market/",
+        "date": "Unknown",
+        "tags": [
+            "Climate Change",
+            "Insurance",
+            "Premiums",
+            "Natural Disasters",
+            "Regulations"
+        ],
+        "risk_factors": [
+            "Floods",
+            "Climate Change"
+        ],
+        "economic_impact": "Global insured losses from climate-related events in 2024 reached $140 billion.",
+        "geographical_region": "Global",
+        "sentiment": "Negative"
+    },
+    {
+        "title": "2025 Insurance Trends - Insurance Specialists",
+        "summary": "The insurance industry in 2025 is heavily influenced by climate change, leading to costlier and less accessible coverage due to increased risks from severe weather events and natural disasters. This is particularly evident in states like California and Florida, where insurers have adjusted or withdrawn home insurance offerings due to wildfire and hurricane threats. Insurance providers are adapting policies in home, auto, and business sectors, refining pricing strategies that may increase costs for high-risk areas. The industry is also witnessing growth in usage-based and on-demand insurance models.",
+        "category": "Financial Impact of Climate Change",
+        "source": "https://insurancespecialists.com/2025-insurance-trends/",
+        "date": "Unknown",
+        "tags": [
+            "Insurance",
+            "Climate Change",
+            "Natural Disasters",
+            "Coverage",
+            "California",
+            "Florida",
+            "Risk"
+        ],
+        "risk_factors": [
+            "Wildfires",
+            "Hurricanes",
+            "Severe Weather Events"
+        ],
+        "economic_impact": "Insurance becomes more expensive and less accessible in high-risk areas due to increased climate-related risks.",
+        "geographical_region": "California, Florida, USA",
+        "sentiment": "Negative"
+    },
+    {
+        "title": "PDF",
+        "summary": "The article examines the role of climate risk information generated through insurance activities, particularly parametric sovereign risk pools, in supporting climate adaptation. It highlights the work of the InsuResilience Global Partnership in enhancing resilience against climate impacts and making insurance more accessible for vulnerable populations. The article also discusses behavioral factors affecting the demand for agricultural index insurance as climate change increases drought risks.",
+        "category": "Climate Risk",
+        "source": "https://www.vista-analyse.no/site/assets/files/8099/va-report_2023-38_climate_insurance_in_developing_countries.pdf",
+        "date": "Unknown",
+        "tags": [
+            "climate risk",
+            "insurance",
+            "parametric risk pools",
+            "InsuResilience",
+            "adaptation",
+            "agricultural index insurance"
+        ],
+        "risk_factors": [
+            "Drought",
+            "Climate Change"
+        ],
+        "economic_impact": "Potential decrease in demand for agricultural insurance due to climate-induced behavioral changes among farmers.",
+        "geographical_region": "Africa",
+        "sentiment": "Neutral"
+    },
+    {
+        "title": "10 Insurance And Climate Actions For 2024 - Oliver Wyman",
+        "summary": "The article discusses the integration of climate adaptation and resilience into insurers' sustainability strategies. As climate change impacts become more evident, insurers are expected to re-evaluate their approach to mortality and morbidity assumptions, and their decisions regarding insurance coverage. This shift highlights the industry's focus on climate-related risks and the influence on the 'social issues' aspect of ESG.",
+        "category": "Sustainability & ESG",
+        "source": "https://www.oliverwyman.com/our-expertise/insights/2024/jan/insurance-and-sustainability-opportunities-for-2024.html",
+        "date": "Unknown",
+        "tags": [
+            "Climate Change",
+            "Insurance Industry",
+            "Sustainability",
+            "ESG",
+            "Adaptation",
+            "Resilience"
+        ],
+        "risk_factors": [
+            "Climate Change"
+        ],
+        "economic_impact": "The article implies that insurers will need to adjust financial strategies to accommodate climate-related risks, potentially affecting their financial models and coverage plans.",
+        "geographical_region": "Global",
+        "sentiment": "Neutral"
+    },
+    {
+        "title": "Riding the Storm: Preparing for Climate Risks in the 2025 Insurance ...",
+        "summary": "The insurance industry is facing increasing challenges due to rising climate risks, as it looks towards the year 2025. Recent reports by Alera Group and Moody's highlight the need for stability in the face of growing natural disasters affecting the U.S. property and casualty sector. A positive but cautious outlook prevails as the industry adapts to these escalating conditions.",
+        "category": "Climate Risk",
+        "source": "https://www.earthvisionz.com/blog/riding-the-storm-preparing-for-climate-risks-in-the-2025-insurance-landscape",
+        "date": "Unknown",
+        "tags": [
+            "Climate Risks",
+            "Insurance Industry",
+            "Natural Disasters",
+            "Alera Group",
+            "Moody's"
+        ],
+        "risk_factors": [
+            "Natural Disasters"
+        ],
+        "economic_impact": "Increased instability in the U.S. property and casualty sector, driven by climate-related incidents.",
+        "geographical_region": "United States",
+        "sentiment": "Neutral"
+    },
+    {
+        "title": "2025 global insurance outlook | Deloitte Insights",
+        "summary": "The article discusses how climate change is impacting life insurers by subtly affecting health, morbidity, and mortality rates. Pollution and wildfire smoke increase respiratory and cardiovascular conditions, leading to higher health risks. Insurance providers are urged by regulators to enhance transparency regarding climate risks in investments and to make coverage affordable, especially for vulnerable communities.",
+        "category": "Financial Impact of Climate Change",
+        "source": "https://www2.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html",
+        "date": "2024-05-29",
+        "tags": [
+            "Climate Change",
+            "Health Risk",
+            "Insurance",
+            "Morbidity",
+            "Mortality",
+            "Pollution",
+            "Wildfire Smoke",
+            "Regulations",
+            "Affordable Coverage"
+        ],
+        "risk_factors": [
+            "Poor air quality",
+            "Wildfire smoke",
+            "Respiratory conditions",
+            "Cardiovascular conditions"
+        ],
+        "economic_impact": "Elevated insurance costs for US commercial real estate and challenges in maintaining affordable insurance coverage.",
+        "geographical_region": "United States",
+        "sentiment": "Neutral"
+    },
+    {
+        "title": "How climate change is breaking insurance\u2014and theatening the ...",
+        "summary": "The article discusses how traditional insurance models are becoming obsolete due to increasing climate risks. It highlights the challenges insurers face as natural catastrophes become more frequent and severe, threatening the global economy.",
+        "category": "Financial Impact of Climate Change",
+        "source": "https://www.fastcompany.com/91264917/climate-change-breaking-insurance-theatening-global-economy",
+        "date": "Unknown",
+        "tags": [
+            "climate change",
+            "insurance",
+            "global economy",
+            "natural catastrophes"
+        ],
+        "risk_factors": [
+            "Climate Risks",
+            "Natural Catastrophes"
+        ],
+        "economic_impact": "The article suggests that the increasing severity of climate-related disasters poses a significant threat to the global economy due to rising insurance claims and the potential failure of traditional insurance models.",
+        "geographical_region": "Global",
+        "sentiment": "Negative"
+    },
+    {
+        "title": "USA: Climate risk insurance can effectively mitigate economic losses",
+        "summary": "The article discusses how implementing climate risk insurance in the USA could help offset the anticipated economic losses resulting from increased hurricane-related growth impacts.",
+        "category": "Climate Risk",
+        "source": "https://www.preventionweb.net/news/climate-risk-insurance-can-effectively-mitigate-economic-losses",
+        "date": "Unknown",
+        "tags": [
+            "Climate risk insurance",
+            "Economic losses",
+            "Hurricanes",
+            "USA"
+        ],
+        "risk_factors": [
+            "Hurricanes"
+        ],
+        "economic_impact": "Potential reduction in growth losses due to hurricanes.",
+        "geographical_region": "USA",
+        "sentiment": "Positive"
+    },
+    {
+        "title": "The impact of climate change on life and health insurers - PwC",
+        "summary": "The article discusses how climate change presents significant concerns for life and health insurance sectors, extending beyond property and crop damages to include potential liabilities related to human health impacts. It emphasizes the growing financial risks and challenges these insurers face in adapting to a changing climate landscape.",
+        "category": "Financial Impact of Climate Change",
+        "source": "https://www.pwc.com/us/en/industries/financial-services/library/climate-change-impact-insurance-industry.html",
+        "date": "Unknown",
+        "tags": [
+            "Climate Change",
+            "Life Insurance",
+            "Health Liabilities",
+            "Financial Risks"
+        ],
+        "risk_factors": [
+            "Climate Change",
+            "Health Liabilities"
+        ],
+        "economic_impact": "Increased financial liabilities and exposure risks for life and health insurers.",
+        "geographical_region": "Global",
+        "sentiment": "Negative"
+    }
+]

@@ -24,7 +24,7 @@ def process_news(news_articles, model_name="gpt-4o"):
     prompt_template = get_prompt(PROMPT_PATH)
 
     prompt = PromptTemplate(
-        input_variables=["title", "content"], template=prompt_template
+        input_variables=["title", "content", "source"], template=prompt_template
     )
     # name_chain = LLMChain(llm=llm, prompt=prompt)  # Create LLM chain
     name_chain = prompt | llm
@@ -35,6 +35,7 @@ def process_news(news_articles, model_name="gpt-4o"):
         inputs = {
             "title": article.get("title", "Unknown"),
             "content": article.get("content", "No content available"),
+            "source": article.get("url", "Unknown"),
         }
 
         ai_message = name_chain.invoke(inputs)

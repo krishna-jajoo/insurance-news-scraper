@@ -25,6 +25,7 @@ The input will include the following details:
 
 * **Title:** {title}
 * **Content:** {content}
+* **Source**: {source}
 
 ## **Output Requirements**
 
@@ -34,10 +35,10 @@ The output should be a structured JSON file containing only the following fields
 
 ```json
 {{
-  "title": "exact title as provided in input",
+  "title": {title},
   "summary": "A concise, fact-based summary of the article",
   "category": "Most relevant category from the predefined list",
-  "source": "Extracted source from the article, or 'Unknown' if unavailable",
+  "source": {source},
   "date": "Publication date in YYYY-MM-DD format, or 'Unknown' if not found",
   "tags": ["Relevant keywords derived from the article"],
   "risk_factors": ["Identified risk factors, e.g., Hurricanes, Cyber Threats, Inflation"],

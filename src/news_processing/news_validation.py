@@ -10,22 +10,11 @@ def extract_research_papers(raw_json):
     """Extracts research papers dynamically from raw JSON data."""
     research_papers = []
 
-    # research_papers = [
-    #     {
-    #         "title": "Managing Basis Risks in Parametric Insurance",
-    #         "keywords": ["parametric insurance", "basis risk"],
-    #     },
-    #     {
-    #         "title": "Data-driven Parametric Insurance Framework",
-    #         "keywords": ["risk modeling", "climate insurance"],
-    #     },
-    # ]
-
     for paper in raw_json:
         research_papers.append(
             {
-                "title": paper["title"],
-                "content": paper["content"],
+                "title": paper.get("title", "Unknown Title"),
+                "content": paper.get("content", ""),
             }
         )
 
