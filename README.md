@@ -9,7 +9,7 @@ A Python-based tool that scrapes **insurance and reinsurance news**, processes t
 ✅ Fetches real-time news from **Tavily API**
 ✅ Summarizes & categorizes using **GPT-4o**
 ✅ Validates credibility with **research papers**
-✅ Generates structured reports (JSON & CSV)
+✅ Generates structured reports (JSON)
 ✅ Interactive dashboard with **Streamlit**
 
 # Installation Guide
@@ -41,7 +41,11 @@ pip install -r requirements.txt
 
 # **How to Run**
 
-## Set API keys:
+## API Keys
+
+### 1. Get API Keys:
+
+### 2. Set API Keys
 
 Create a `.env` file inside the directory and add your API keys.
 
@@ -53,12 +57,10 @@ OPENAI_API_KEY="your_openai_key"
 TAVILY_API_KEY="your_tavily_key"
 ```
 
-## huggingface-cli login
-
 ## Run news processing:
 
 ```md
-scripts\result.bat
+scripts\news_pipeline.bat
 ```
 
 ## Launch the dashboard:
@@ -67,7 +69,34 @@ scripts\result.bat
 streamlit run ui/dashboard.py 
 ```
 
-# Example
+## Performance Metrics:
 
-1) Raw json detailed
-2) Detailed
+```md
+python -m src.accuracy.performance_metrics
+```
+
+# Example:
+
+1) Raw Json:
+2) Structured Json
+3) Validated Json
+4) Dashboard View :
+
+   Heading:
+   Filter by Category
+   Filter by tag:
+   Filter By risk Factor
+   Filter by region
+   Filter By Sentiment
+
+![1743270511083](image/README/1743270511083.png)
+
+da
+
+![1743270620380](image/README/1743270620380.png)
+
+Sentiment Distribution
+
+![1743270564867](image/README/1743270564867.png)
+
+Example:
