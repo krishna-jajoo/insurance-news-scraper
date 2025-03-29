@@ -27,9 +27,9 @@
 
 import json
 import os
-from scripts.news_scraper import fetch_insurance_news
-from scripts.news_processor import process_news
-from scripts.news_validation import validate_news_with_research
+from news_processing.news_scraper import fetch_insurance_news
+from news_processing.news_processor import process_news
+from news_processing.news_validation import validate_news_with_research
 
 
 def load_config(config_path="config.json"):

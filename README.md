@@ -45,10 +45,15 @@ pip install -r requirements.txt
 
 Create a `.env` file inside the directory and add your API keys.
 
+1) TAVILY_API_KEY
+2) OPENAI_API_KEY
+
 ```env
 OPENAI_API_KEY="your_openai_key"  
 TAVILY_API_KEY="your_tavily_key"
 ```
+
+## huggingface-cli login
 
 ## Run news processing:
 
@@ -59,9 +64,10 @@ python main.py
 ## Launch the dashboard:
 
 ```md
-streamlit run ui/dashboard.py  
+streamlit run ui/dashboard.py 
 ```
 
-# About Me
+# Example
 
-Krishna Jajoo
+1) Raw json detailed
+2) Detailed

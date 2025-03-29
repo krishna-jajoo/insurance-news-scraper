@@ -6,3 +6,4 @@ langgraph
 tavily-python  
 streamlit  
 pandas
+matplotlib

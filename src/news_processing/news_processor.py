@@ -3,9 +3,9 @@ import json
 
 import os
 from dotenv import load_dotenv
-from langchain.chains import LLMChain
+# from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from scripts.azure.azure import get_llm_model
+from src.model.model import get_llm_model
 from src.prompt.prompt import get_prompt
 from src.utils import extract_and_parse_json
 
@@ -47,13 +47,14 @@ load_dotenv()
 
 def process_news(news_articles, model_name="gpt-4o"):
     PROMPT_PATH = os.path.join("src/prompt/news_article_prompt.md")
-    llm = get_llm_model(model_name=model_name)  # Initialize LLM model
+    llm = get_llm_model(vendor="openai", model_name=model_name)  # Initialize LLM model "gpt-4o"
     prompt_template = get_prompt(PROMPT_PATH)
 
     prompt = PromptTemplate(
         input_variables=["title", "content"], template=prompt_template
     )
-    name_chain = LLMChain(llm=llm, prompt=prompt)  # Create LLM chain
+    # name_chain = LLMChain(llm=llm, prompt=prompt)  # Create LLM chain
+    name_chain = prompt | llm
 
     structured_data = []
 
@@ -63,11 +64,14 @@ def process_news(news_articles, model_name="gpt-4o"):
             "content": article.get("content", "No content available"),
         }
 
-        response = name_chain.run(inputs)  # Execute chain and get response
-        parsed_data = extract_and_parse_json(response)
+        ai_message = name_chain.invoke(inputs)  # Execute chain and get response
+        response = ai_message.content
 
+        # result_string = response.replace("```json", "").replace("`", "")
+        parsed_data = extract_and_parse_json(response)
         if parsed_data:
             structured_data.append(parsed_data)
+        break
 
     return structured_data
 
