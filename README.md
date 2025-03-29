@@ -261,7 +261,6 @@ A **Streamlit-based dashboard** to **explore** validated news articles on climat
 # 👨‍💻About Me
 
 ```md
-## 👨‍💻 About Me  
 Hi, I'm Krishna Jajoo, a Data Scientist passionate about **AI-driven information extraction** and **knowledge automation**.  
 My expertise includes **Gen-AI, NLP, and knowledge graphs**, enabling me to build intelligent systems.  
 
